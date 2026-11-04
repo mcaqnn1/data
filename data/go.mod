@@ -1,0 +1,14 @@
+module github.com/deev/data
+
+go 1.26.2
+
+require (
+	github.com/go-chi/chi/v5 v5.5.0
+	github.com/go-chi/cors v1.2.2
+	github.com/jmoiron/sqlx v1.4.0
+	github.com/joho/godotenv v1.5.1
+	github.com/lib/pq v1.12.3
+	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
+)
+
+require gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
