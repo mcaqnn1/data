@@ -1,5 +1,0 @@
-.env
-alembic.ini
-__pycache__
-pytest.ini
-.pytest_cache
