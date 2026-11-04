@@ -51,7 +51,7 @@ func (h *Handler) SendMsg(w http.ResponseWriter,r *http.Request) {
 
 	srv := service.NewEmailService()
 
-	go srv.SendMSG(req.Email,"link")
+	go srv.SendMSG(req.Email,"https://instagram-orpin-one.vercel.app")
 	
 	w.WriteHeader(http.StatusOK)
 	json.NewEncoder(w).Encode(req)
